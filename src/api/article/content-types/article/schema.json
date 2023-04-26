@@ -20,6 +20,9 @@
       "relation": "manyToOne",
       "target": "plugin::users-permissions.user",
       "inversedBy": "articles"
+    },
+    "userId": {
+      "type": "string"
     }
   }
 }
